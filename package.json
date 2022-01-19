@@ -4,6 +4,8 @@
   "description": "Simple Stock Exchange Core",
   "main": "index.js",
   "scripts": {
+    "start": "node ./build",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
