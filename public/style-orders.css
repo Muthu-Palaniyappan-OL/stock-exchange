@@ -1,0 +1,72 @@
+h1 {
+    font-size: 5vh;
+    text-align: center;
+}
+
+.card-buy {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(199, 224, 193);
+}
+
+.card-sell {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(223, 193, 185);
+}
+
+.stockid {
+    font-size: 2em;
+}
+
+.orderid::before {
+    font-weight: bold;
+    content: 'Order Id: ';
+}
+
+.qty::before {
+    font-weight: bold;
+    content: ' | Qty: ';
+}
+
+.qty_executed::before {
+    font-weight: bold;
+    content: ' | Qty Executed: ';
+}
+
+.dp::before {
+    font-weight: bold;
+    content: ' | Dp: ';
+}
+
+.dp_client::before {
+    font-weight: bold;
+    content: ' | Dp Client: ';
+}
+
+.price::before {
+    font-weight: bold;
+    content: ' | Price: ';
+}
+
+.tick {
+    float: right;
+}
+
+.tick::before {
+    content: "✅";
+}
+
+.cross {
+    float: right;
+}
+
+.cross::before {
+    content: "❌";
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

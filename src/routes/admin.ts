@@ -54,7 +54,7 @@ app.get('/admin/orders/', (req, res) => {
         })
         return
     }
-    res.sendFile(path.join(__dirname + '/../public/orders.html'))
+    res.sendFile(path.join(__dirname + '/../../public/orders.html'))
 })
 
 app.get('/admin/stocks/', (req, res) => {
@@ -64,7 +64,7 @@ app.get('/admin/stocks/', (req, res) => {
         })
         return
     }
-    res.sendFile(path.join(__dirname + '/../public/stocks.html'))
+    res.sendFile(path.join(__dirname + '/../../public/stocks.html'))
 })
 
 export default app

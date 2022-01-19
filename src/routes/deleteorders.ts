@@ -26,7 +26,13 @@ app.delete('/api/v1/order/:id', (req, res) => {
         })
         return
     }
-    jwt.verify(req.headers.jwt[0], 'privatekey', (err, decoded) => {
+    if (typeof req.headers.jwt != "string") {
+        res.status(401).json({
+            message: "More Than One JWT Named Headers"
+        })
+        return
+    }
+    jwt.verify(req.headers.jwt, 'privatekey', (err, decoded) => {
         try {
             if (err) {
                 throw err
