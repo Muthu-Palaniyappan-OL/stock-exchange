@@ -1,0 +1,24 @@
+{
+  "name": "stock-exchange",
+  "version": "1.0.0",
+  "description": "Simple Stock Exchange Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muthu-Palaniyappan-OL/stock-exchange.git"
+  },
+  "keywords": [
+    "Stock-Exchange",
+    "Stock",
+    "Matching-Engine"
+  ],
+  "author": "Muthu Palaniyappan OL",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Muthu-Palaniyappan-OL/stock-exchange/issues"
+  },
+  "homepage": "https://github.com/Muthu-Palaniyappan-OL/stock-exchange#readme"
+}
