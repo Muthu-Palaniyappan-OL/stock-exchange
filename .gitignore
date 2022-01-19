@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+*.js
+*.exe
+*.exe~
+*.log
+*.log~
