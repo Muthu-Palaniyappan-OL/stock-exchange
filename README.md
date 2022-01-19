@@ -1,4 +1,6 @@
-<img src="./assets/logo.png" style="display: block;margin: auto;">
+<div align="center">
+  <img src="./assets/logo.png" style="height: 250px;">
+</div>
 
 # Stock-Exchange [Core]
 This is a simple project arround build simple stock exchange core processes of matching stock orders. System could be interacted with REST api.
