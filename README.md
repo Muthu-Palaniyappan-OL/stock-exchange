@@ -9,31 +9,42 @@ You can place stock orders using REST api. These orders get matched within the d
 
 ## Installing / Getting started
 
-Under Construction 🚧
+Clone this repo
+```sh
+git clone https://github.com/Muthu-Palaniyappan-OL/stock-exchange.git
+```
 
-### Initial Configuration
-
-Under Construction 🚧
+Installing Dependancies
+```sh 
+cd stock-exchange && npm i
+```
 
 ## Developing
 
-Under Construction 🚧
+Project was build using 
+- Typescript (4.5.4)
+- NodeJS (17.3.1)
+- PostgresSQL (14)
+
 
 ### Building
 
-Under Construction 🚧
-
-### Deploying / Publishing
-
-Under Construction 🚧
+```sh
+npm run build
+```
 
 ## Features
 
-Under Construction 🚧
+- Stock-Exchange has a system of placing orders using REST API.
+- Orders placed can be seen visually using /admin/orders/ endpoint.
+- Stock Brokers of the stock exchange can only interact with JWT.
+- Orders are matched based on their price, qty left, time, etc.
 
-## Configuration
+## Demo
 
-Under Construction 🚧
+![Image Of Sending REST API Request](./assets/ss1.png)
+![Viewing Orders In Orders Dashboard](./assets/ss2.png)
+Orders with red background color is sell order, green is buy order. Tick mark means order is atleast partially executed.
 
 ## Contributing
 
